@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Conta from "../Conta";
+import Extrato from "../Extrato";
 import Titulo from "../Titulo";
 
 const Container = styled.div`
@@ -25,6 +26,7 @@ export default () => {
       <Titulo>Olá Fulano!</Titulo>
       <Conteudo>
         <Conta />
+        <Extrato />
       </Conteudo>
     </Container>
   );
