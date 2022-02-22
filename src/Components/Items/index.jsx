@@ -18,7 +18,7 @@ export default (props) => {
   return (
     <Items>
       {ImageFilter(props.type)}
-      <Item {...props}></Item>
+      <Item {...props} />
       <span>{props.date}</span>
     </Items>
   );
